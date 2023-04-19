@@ -3,7 +3,7 @@ const select = document.getElementById('select-currency')
 
 const dolar = 5.25
 const euro = 5.62
-const bitcoin = 141835.09
+const bitcoin = 147.66394
 
 
 const convertValues = () => {
@@ -39,39 +39,40 @@ const convertValues = () => {
     ).format(inputReais / euro);
   }
 
-  if (select.value === "'₿ Bitcoin") {
-    currencyValueText.innerHTML = new Intl.NumberFormat('XBT',
+  if (select.value === "₿ Bitcoins") {
+    currencyValueText.innerHTML = new Intl.NumberFormat('XTB',
       {
         style: 'currency',
         currency: 'BTC'
       }
-    ).format(inputReais / bitcoin);
+    ).format(inputReais * bitcoin);
   }
+
 }
 
 
 
 changeCurrency = () => {
-  const currencyName = document.getElementById('currecy-name')
-  const currencyImg = document.getElementById('currecy-img')
+  const currencyName = document.getElementById('currency-name')
+  const currencyImg = document.getElementById('currency-img')
 
   if (select.value === 'US$ Dólar Americano') {
     currencyName.innerHTML = "Dólar Americano"
-    currencyImg.src = "img/dolar.png"
+    currencyImg.src = "./img/dolar.png"
   }
 
   if (select.value === '€$ Euro') {
     currencyName.innerHTML = "Euro"
-    currencyImg.src = "img/euro.png"
+    currencyImg.src = "./img/euro.png"
 
   }
 
-  if (select.value === '₿ Bitcoin') {
+  if (select.value === '₿ Bitcoins') {
     currencyName.innerHTML = "Bitcoin"
-    currencyImg.src = "img/bitcoin.png"
+    currencyImg.src = "./img/bitcoin.png"
 
   }
-
+  console.log(changeCurrency)
   convertValues()
 }
 button.addEventListener('click', convertValues)

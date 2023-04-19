@@ -17,10 +17,11 @@ body {
     width: 375px;
     margin: 0 auto;
     margin-top: 100px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.15);
 }
 
 header {
-    background: #1B83E2;
+    background: #192e42;
     height: 66px;
 
 
@@ -79,7 +80,7 @@ input {
 }
 
 button {
-    background: #1B83E2;
+    background: #192e42;
     border-radius: 25px;
     height: 48px;
     cursor: pointer;
@@ -90,6 +91,7 @@ button {
     width: 100%;
     margin-top: 24px;
     margin-bottom: 36px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 
 
 
@@ -105,7 +107,7 @@ button:active {
 }
 
 section {
-    border: 1px solid #1B83E2;
+    border: 1px solid #192e42;
     border-radius: 4px;
 
 }
@@ -123,7 +125,7 @@ section {
 }
 
 .currecy-value {
-    color: #1B83E2;
+    color: #192e42;
     font-weight: 700;
     font-size: 20px;
 
