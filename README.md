@@ -17,4 +17,4 @@
 
 <h1> Descrição  do Projet</h1>
 <p> Projeto feito com a ajuda do Figma. Conversor de Real , em dólar,euro e  bitcoin.  Foi utilizad Tecnologias  como,  HTML,CSS e JavaScript! O desafio deste Projeto foi adicionar a moeda
-bitcoin. Proximo passo é adicionar um API para pegar dados da moeda em tempo real!<p
+bitcoin juntamente adicionado a API para a conversão de moedas em tempo real!<p
