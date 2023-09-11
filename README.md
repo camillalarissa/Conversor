@@ -9,7 +9,7 @@ This is a simple currency converter that allows you to convert between Euro (EUR
 
 
 *Copy code
-git clone https://github.com/seu-usuario/conversor-de-moedas.git
+git clone https:https://github.com/camillalarissa/Conversor
 
 *Open the index.html file in your web browser.
 
